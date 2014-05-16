@@ -1,0 +1,126 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing:0.2em;
+	margin: 0;
+	background: #450505 url("../img/home_bg.png") top center no-repeat;
+	background-position:fixed;
+ 	display: compact;
+	overflow: hidden;
+}
+
+.container {
+	overflow: hidden;
+}
+
+.navbar-fixed-top {
+	background: transparent url("../img/transparency-20.png");
+	font-weight: bold;
+}
+
+.btn, .redButton {
+	text-transform: uppercase;
+	letter-spacing:0.2em;
+}
+
+.btn-danger {
+	background-color: #800000;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+	color: #ffffff;
+	background-color: #bd260d;
+	border-color: #b1240c;
+}
+
+.topnav_btn a {
+	color: #fff;
+	width: 100%;
+	text-align: left;
+}
+
+.topnav_btn a:hover {
+	color: #fff;
+	background: transparent url("../img/transparency-40.png");
+	width: 100%;
+	text-align: left;
+}
+
+.bodyText {
+	text-transform: none;
+}
+
+#about, #leaveVote, #formSuccess, #fancybox-content, #fancybox-inner {
+	text-align: center;
+	display:none;
+	overflow:hidden;
+	max-width:700px;
+}
+
+#fancybox-wrap, #fancybox-outer {
+	display:none;
+	overflow:hidden;
+	max-width:750px;
+}
+
+#fancybox-overlay, #fancybox-overlay-fixed, #fancybox-wrap, #fancybox-desktop, #fancybox-media, #fancybox-opened, #fancybox-lock {
+	overflow: hidden;
+}
+
+p {
+	letter-spacing: normal;
+	text-transform: none;
+	padding: 8px;
+}
+
+#topLogo {
+	float: center;
+	text-align: center;
+	border: 0;
+	margin: 12px;
+	padding: 0;
+	display: block;
+}
+
+#topLogo img {
+	float: center;
+	text-align: center;
+	border: 0;
+	max-width: 300px;
+}
+
+#formFields {
+	margin-top:12px;
+	margin-bottom:20px;
+}
+
+legend {
+	color: #800000;
+}
+
+a {
+	color: #800000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b1240c;
+	text-decoration: underline;
+}
+
+input, textarea {
+	width: 300px;
+	text-align: center;
+	font-size: 1em;
+	text-transform: none;
+	resize: none;
+}
+
+label {
+	font-size: .8em;
+	text-transform: none;
+}
